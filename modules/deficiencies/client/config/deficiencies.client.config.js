@@ -1,12 +1,12 @@
 'use strict';
 
 // Configuring the Articles module
-angular.module('articles').run(['Menus',
+angular.module('deficiencies').run(['Menus',
 	function(Menus) {
 		// Add the articles dropdown item
 		Menus.addMenuItem('topbar', {
 			title: 'Articles',
-			state: 'articles',
+			state: 'deficiencies',
 			type: 'dropdown'
 		});
 
